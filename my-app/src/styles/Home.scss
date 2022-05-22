@@ -1,0 +1,89 @@
+@import 'vars';
+
+.welcome-container{
+    display: flex;
+    height: 100vh; 
+    margin: 0; 
+    background: linear-gradient(
+        to right,
+        var(--dark-orange) 0%,
+        var(--dark-orange) 50%,
+        var(--light-orange) 50%,
+        var(--light-orange) 100%
+    );
+
+}
+.left-side{
+    position: relative;
+    top: 122px;
+    left: 382px;
+    height: 700px;
+}
+.left-side img{
+    position: relative;
+    right: 162px;
+    top: 42px;
+}
+.left-side h1{
+    color: var(--light-orange);
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 582px;
+    top: 122px;
+    
+    height: 700px;
+}
+.right-side h2{
+    color: var(--dark-orange);
+    font-size: 1.8rem;
+}
+.right-side form{
+    position: relative;
+    top: 2px;
+}
+.right-side p{
+    margin-bottom: 12px;
+    margin-top: 48px;
+    color: var(--dark-grey);
+}
+.description{
+    height: 98px;
+    width: 422px;
+    border-style: none;
+    background-color: var(--light-orange);
+    border-bottom: solid 1px var(--dark-orange);
+}
+
+.email-input,
+.username-input,
+.password-input
+{
+    border-style: none;
+    background-color: var(--light-orange);
+    border-bottom: solid 1px var(--dark-orange);
+    width: 422px;
+    height: 32px;
+}
+.sesion-btn{
+    background-color: var(--dark-orange);
+    border-style: none;
+    height: 34px;
+    margin-top: 82px;
+    color: var(--light-orange);
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sesion-btn a:link{
+    color: var(--light-orange);
+    text-decoration: none;
+}
+.sesion-btn a:visited{
+    color: var(--light-orange);
+    text-decoration: none;
+}

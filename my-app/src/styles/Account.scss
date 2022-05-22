@@ -1,0 +1,228 @@
+@import 'vars';
+
+body{
+    background-color: var(--light-orange);
+}
+.account-container{
+    background-color: var(--light-orange);
+    height: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+}
+.portada-account{
+    background-color: rgb(255, 237, 217);
+    height: 322px;
+}
+.portada-file{
+    height: 322px;
+    background-color: brown;
+    position: relative;
+    bottom: 322px;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0%;
+}
+.dog-portada{
+    height: 322px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 559px;
+}
+.delete-btn-P{
+    background-color: var(--dark-orange);
+    height: 22px;
+    width: 22px;
+    border-style: none;
+    color: var(--light-orange);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    bottom: 626px;
+    left: 1862px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+.profile-pic{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    bottom: 847px;
+    left: 53px;
+}
+.profile-back{
+    background-color: rgb(255, 237, 217);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 1px var(--dark-orange);
+    position: relative;
+    bottom: 448px;
+    left: 52px;
+}
+.picture-file{
+    background-color: rgb(192, 135, 70);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 1px var(--dark-orange);
+    position: relative;
+    cursor: pointer;
+    opacity: 0%;
+    z-index: 1;
+    bottom: 648px;
+    left: 52px;
+}
+.dog-image{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border: solid 1px var(--dark-orange);
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+}
+.delete-btn{
+    background-color: var(--dark-orange);
+    height: 22px;
+    width: 22px;
+    border-style: none;
+    color: var(--light-orange);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    bottom: 188px;
+    left: 158px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+.pfp-btn{
+    position: relative;
+    left: 26px;
+    height: 32px;
+    width: 142px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: var(--dark-orange);
+    color: var(--light-orange);
+    font-size: 1rem;
+    cursor: pointer;
+    top: 212px;
+}
+.acc-info{
+    position: relative;
+    bottom: 802px;
+    margin-left: 308px;
+}
+.acc-name{
+    color: rgb(19, 19, 19);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.acc-ifo{
+    color: var(--dark-grey);
+    position: relative;
+    top: 12px;
+    font-size: 1rem;
+}
+.update-header{
+    position: relative;
+    height: 36px;
+    width: 182px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: var(--dark-orange);
+    color: var(--light-orange);
+    font-size: 1rem;
+    cursor: pointer;
+    bottom: 42px;
+    left: 1322px;
+    z-index: 1;
+}
+.formprofile{
+    position: relative;
+    bottom: 196px;
+}
+.acc-pictures{
+    position: relative;
+    bottom: 728px;
+    margin-left: 42px;
+    display: flex;
+}
+.upload-img{
+    height: 238px;
+    width: 238px;
+    border-radius: 8px;
+    margin-right: 8px;
+    object-fit: cover;
+}
+.add-images{
+    height: 238px;
+    width: 202px;
+    background-color: var(--header-orange);
+    border: solid 1px var(--dark-orange);
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.addSim{
+    font-size: 2rem;
+    position: relative;
+    top: 76px;
+    left: 72px;
+    color: var(--dark-orange);
+}
+.post-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    color: var(--dark-orange);
+    position: relative;
+    top: 4px;
+    left: 8px;
+}
+.post-btn{
+    background-color: var(--dark-orange);
+    border-style: none;
+    color: var(--light-orange);
+    height: 28px;
+    width: 86px;
+    border-radius: 8px;
+    position: relative;
+    top: 136px;
+    left: 38px;
+    font-size: 1rem;
+    z-index: 2;
+    cursor: pointer;
+}
+.addpic-file{
+    width: 238px;
+    height: 238px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    right: 238px;
+    z-index: 1;
+    opacity: 0%;
+}
+.upload-content{
+    position: relative;
+    right: 200px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.delete-btn1{
+    background-color: var(--dark-orange);
+    height: 22px;
+    width: 22px;
+    border-style: none;
+    color: var(--light-orange);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    right: 26px;
+    bottom: 227px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
